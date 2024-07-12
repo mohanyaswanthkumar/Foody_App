@@ -1,0 +1,27 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position:absolute;
+    top: 320px;
+    left: 40px;
+}
+.menulist::-webkit-scrollbar{
+    display: none;
+    scroll-behavior: smooth;
+}
+.menu>h5{
+    font-size: medium;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.menulist{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: relative;
+    left: 10px;
+    width: 1290px;
+    overflow-x: scroll;
+}

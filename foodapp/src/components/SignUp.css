@@ -1,0 +1,42 @@
+.signup{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 35%;
+    top: 13%;
+    background-color: burlywood;
+}
+.signup-text{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-form>input[type="text"]{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+}
+.signup-form>input[type="password"]{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+}
+.signup-form>input[type="email"]{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+}

@@ -1,0 +1,82 @@
+/* ExploreMenu.css */
+
+.exploremenu {
+    position: absolute;
+    top: 930px;
+    left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start; /* Changed from 'center' to 'flex-start' */
+  }
+  
+  .menuitem {
+    display: block;
+    cursor: pointer;
+    width: 400px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .menuitem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: all 0.4s ease-out;
+  }
+
+  .menuitem:hover img{
+    transform: scale(1.35);
+  }
+  
+  .menuitem h4 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .menuitem p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .menuitem h5 {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+  }
+  
+  .menuitem h4:last-child {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .menuitem .count-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .menuitem .count-container img {
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .menuitem .count-container p {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .menuitem .count-container img.add-icon-green {
+    filter: brightness(1.2);
+  }
+  
+  .menuitem .count-container img.remove-icon-red {
+    filter: brightness(0.8);
+  }
+  

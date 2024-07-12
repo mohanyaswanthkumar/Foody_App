@@ -1,0 +1,38 @@
+.add-item{
+    margin-left: 400px;
+    margin-top: 75px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.side{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+#name,#category
+{
+    width: 500px;
+    height: 40px;
+    border: 1.5px black solid;
+    border-radius: 5px;
+}
+#description{
+    width: 500px;
+    height: 100px;
+    border: 1.5px black solid;
+    border-radius: 5px;
+}
+
+#price{
+    height: 40px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin-top: 75px;
+}
+form>button{
+    background-color: #00FF00;
+    border-radius: 5px;
+}

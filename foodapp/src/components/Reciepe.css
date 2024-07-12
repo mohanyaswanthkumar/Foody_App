@@ -1,0 +1,74 @@
+.rec-sec{
+    margin-top: 100px;
+    margin-left: 350px;
+    width: 740px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4c531;
+    text-align: center;
+    padding: 40px;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+}
+
+.search input{
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-variant: small-caps;
+    text-overflow: clip;
+}
+
+.recipe{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.recipe .itemname{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ingredients{
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.ingredient-item{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    height: 30px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: large;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:justify;
+}

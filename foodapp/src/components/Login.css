@@ -1,0 +1,53 @@
+.login{
+    position: absolute;
+    top: 30px;
+    width: 400px;
+    left: 10px;
+    height: 370px;
+}
+.login-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    top: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form>input[type="text"]{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+}
+.login-form>input[type="password"]{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.no-account{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    position: absolute;
+    top: 320px;
+    left: 90px;
+    align-items: center;
+    justify-content: center;
+}
+.no-account>h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: expanded;
+}

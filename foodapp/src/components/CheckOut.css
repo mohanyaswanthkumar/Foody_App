@@ -1,0 +1,52 @@
+.checkout{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+.delivery-details{
+    margin-left: 50px;
+}
+
+input {
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+  }
+input:focus{
+    border-color:blue;
+}
+
+input::placeholder {
+    text-indent: 20px;
+}  
+
+.delivery-details h3{
+    margin-bottom: 40px;
+}
+#name,#email,#address{
+    width: 500px;
+    height: 40px;
+}
+
+input[type=number]
+{
+    width: 230px;
+    height: 40px;
+}
+
+.half{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart-checkout{
+    margin-left: 200px;
+}

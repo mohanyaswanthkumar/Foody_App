@@ -1,0 +1,91 @@
+body{
+    background-color: #f8f9fa;
+}
+.cart-list{
+    position: absolute;
+}
+
+.cart-list-col{
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+    margin-top: -130px;
+    margin-left: 160px;
+}
+
+.cart{
+    margin-top: 100px;
+}
+
+.cart hr{
+    height: 1px;
+    background-color: e2e2e2;
+}
+
+.cart-list-items{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 135px;
+    margin-top: 60px;
+    height: 260px;
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    background-color: white;
+}
+
+.cart-list-items::-webkit-scrollbar{
+    display: none;
+}
+
+.cart-list-item{
+    display: flex;
+    flex-direction: row;
+    gap: 137px;
+}
+
+.cart-list-item>div{
+    align-items: center;
+    width: 58px;
+}
+.cart-bottom{
+    position: relative;
+    top: 230px;
+    left:-50px;
+    display: flex;
+    flex-direction: row;
+}
+.cart-checkout{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.checkout-items{
+    display: flex;
+    flex-direction: row;
+    gap: 260px;
+}
+
+.cart-coupon{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    left: 25%;
+    top: 10%;
+}
+
+.code{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.code input{
+    width: 350px;
+    height: 48px;
+}

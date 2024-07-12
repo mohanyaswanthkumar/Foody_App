@@ -1,0 +1,42 @@
+.header img{
+    align-content: center;
+    width: 980px;
+    height: 540px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.header-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: absolute;
+    left: 6vw;
+    bottom: 10%;
+    max-width: 50%;
+    align-items: start;
+}
+
+.header-contents h2{
+    font-weight: 500;
+    font-size: max(4.2vw);
+    margin-left: 180px;
+}
+
+.header-contents p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-style: italic;
+    margin-left: 200px;
+}
+
+.header-contents>button {
+    color: #000;
+    background-color: #00FF00;
+    transition: transform 0.2s ease;
+    margin-left: 190px;
+  }
+  
+  .header-contents>button:hover {
+    transform: scale(0.9); 
+  }
+  
